@@ -1,0 +1,48 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: leaguegothicregular;
+}
+
+@font-face {
+    font-family: leaguegothicregular;
+    src: url(LeagueGothic-CondensedRegular.otf);
+}
+.contbrpuro {
+    display: flex;
+    width: 1440px;
+    height: 1000px;
+    background-image: url(img/brasilpuro.png);
+    color: #D9A23D;
+}
+
+.afrobr {
+    display: flex;
+    width: 1440px;
+    height: 1000px;
+    background-image: url(img/afrobr.png);
+    color: #D9A23D;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+p {
+    font-size: 40px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    height: 510px;
+    width: 665px;
+    padding: 84px;
+    padding-left: 60px;
+}
+
+#afbr {
+    height: 695px;
+    width: 755px;
+    gap: 53px;
+}
