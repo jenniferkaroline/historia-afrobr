@@ -6,6 +6,6 @@
     <li><h3>Tema Escolhido:</h3>"Consciência negra"</li>
   </ul>
   <li><h2>Docente:</h2>Bruna Rafaela</li>
-  <li><h2>Discentes:</h2>Giovanna Ingrid; Jennifer Karoline; João Felipe.</li>
+  <li><h2>Discentes:</h2>Giovanna Ingrid / Jennifer Karoline / João Felipe</li>
 </ul>
 
