@@ -1,5 +1,4 @@
 * {
-    margin: 0%;
     padding: 0%;
     font-family: leaguegothicregular;
 }
@@ -7,6 +6,46 @@
 @font-face {
     font-family: leaguegothicregular;
     src: url(LeagueGothic-CondensedRegular.otf);
+}
+
+body{
+    margin: auto;
+}
+
+.desenvolvimento {
+    background-image: url('img/imgDes.png');
+    display: flex;
+    width: 1440px;
+    height: 1000px;
+}
+
+.desenvolvimentotext {
+    display: flex;
+    flex-direction: column;
+    margin-right: 800px;
+    margin-top: 150px;
+    margin-left: 15px;
+}
+
+.desenvolvimentotext > h1 {
+    color: #D9A23D;
+    font-family: sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.desenvolvimentotext > p {
+    display: flex;
+    margin-top: 70px;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 650px;
 }
 .contbrpuro {
     display: flex;
@@ -46,3 +85,4 @@ p {
     width: 755px;
     gap: 53px;
 }
+
