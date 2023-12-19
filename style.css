@@ -1,15 +1,21 @@
 * {
     padding: 0%;
+    margin: 0;
     font-family: leaguegothicregular;
-    margin: auto;
 }
 
 @font-face {
     font-family: leaguegothicregular;
     src: url(LeagueGothic-CondensedRegular.otf);
 }
-
-
+body {
+    background-color: rgba(13, 13, 13, 1);
+}
+.transparencia {
+    background: #000000AB;
+    width: 1440px;
+    height: 1000px;
+}
 
 .desenvolvimento > div{
     background: #000000AB;
@@ -20,7 +26,8 @@
     background-image: url('img/imgDes.png');
     display: flex;
     width: 1440px;
-    height: 1000px;
+    height:1000px;
+    margin: auto;
 }
 
 .desenvolvimentotext {
@@ -58,6 +65,7 @@
     height: 1000px;
     background-image: url(img/brasilpuro.png);
     color: #D9A23D;
+    margin: auto;
 }
 
 .afrobr {
@@ -66,6 +74,7 @@
     height: 1000px;
     background-image: url(img/afrobr.png);
     color: #D9A23D;
+    margin: auto;
 }
 
 h1 {
@@ -94,7 +103,12 @@ p {
 .figurasHistoricas {
     background-color: #0D0D0D;
     width: 1440px;
-    height: 1326px;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .figurasHistoricas > h1{
@@ -107,21 +121,15 @@ p {
     padding-top: 73px;
 }
 
-.cardsimg {
-    margin-top: 159px;
-}
 
 .cardsimg > div > figure > img{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     background-color: #FFF;
-
 }
-
 
 .cardsimg {
     display: flex;
-    margin-left: 8px;
 }
 
 .card {
@@ -129,14 +137,69 @@ p {
     border-radius: 20px;
     width: 400px;
     height: 500px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
 
-.card > p{
+.card > div >  p{
     color: #e9151500;
 }
 
 .footerimg{
-    margin-top: 224px;
-    margin-left: 80px;
+    background-color: #0D0D0D;
+    height: 300px;
+    width: 1440px;
+    margin: auto;
+    
+}
+.footerimg > img {
+    margin-left: 20px;
+}
+
+.perguntaMotivadora {
+    width: 1440px;
+    height: 500px;
+    background-image: url('img/introduçao.png');
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.perguntaMotivadora > h1 {
+    color:#D9A23D;
+}
+.perguntaMotivadora > p {
+    color: white;
+    margin: 20px;
+
+}
+.DesenvlvimentoPergunta {
+    width: 1440px;
+    height: 1024px;
+    background-image: url('img/pergunta.png');
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.DesenvlvimentoPergunta > h1 {
+    color: #D9A23D;
+}
+.DesenvlvimentoPergunta {
+    color: white;
+}
+.hero {
+    width: 1440px;
+    height: 1000px;
+    background-image: url('img/hero.png');
+    margin: auto;
 }
